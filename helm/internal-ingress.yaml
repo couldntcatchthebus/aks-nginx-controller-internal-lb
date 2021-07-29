@@ -1,3 +1,4 @@
+# you need to be careful about if ip is allocated from other resource.
 controller:
   service:
     loadBalancerIP: <lBIp>
