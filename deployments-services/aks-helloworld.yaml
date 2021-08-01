@@ -20,6 +20,13 @@ spec:
         env:
         - name: TITLE
           value: "Welcome to Azure Kubernetes Service (AKS)"
+        resources:
+          requests:
+            memory: "216Mi"
+            cpu: "500m"
+          limits:
+            memory: "512Mi"
+            cpu: "500m"
 ---
 apiVersion: v1
 kind: Service
